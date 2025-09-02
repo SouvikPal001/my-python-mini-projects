@@ -22,4 +22,4 @@ As a beginner, I’m using this space to practice Python concepts, build simple 
 ## 💻 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/my-python-mini-projects.git
+   git clone https://github.com/SouvikPal001/my-python-mini-projects.git
