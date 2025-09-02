@@ -1,6 +1,5 @@
 # my-python-mini-projects
 
-# 🐍 My Python Mini Projects
 This repository contains my collection of small Python programs and mini projects.  
 As a beginner, I’m using this space to practice Python concepts, build simple applications, and track my progress.  
 
