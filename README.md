@@ -1,7 +1,7 @@
 # my-python-mini-projects
 
 This repository contains my collection of small Python programs and mini projects.  
-As a beginner, I’m using this space to practice Python concepts, build simple applications, and track my progress.
+As a beginner, I’m using this space to practice Python concepts as well as get familiarized with git and GitHub, build simple applications, and track my progress.
 
 ---
 
