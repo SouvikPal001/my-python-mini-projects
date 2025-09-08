@@ -59,7 +59,7 @@ choice = int(input("Enter a number between 1 and 5: "))
 
 match choice:
     case 1:
-        print("You chose One")
+        print("You chose One")  #In python, there is no need to include break statement after each case, if one case is matched, that's it, it won't go any further and come out of the match cases
     case 2:
         print("You chose Two")
     case 3:
