@@ -12,6 +12,7 @@ Escape Sequence Characters: \n(new line), \t(tab), \r(return), \b(backspace) \',
 """
 This is also a multiple line comment.
 Use (ctrl + /) to comment or uncomment any line(s) of code by selecting that desired portion
+Both these types of comments are also strings that can be stored in a variable
 """
 
 #Datatypes and Variables
