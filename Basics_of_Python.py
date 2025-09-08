@@ -18,7 +18,7 @@ Both these types of comments are also strings that can be stored in a variable
 #Datatypes and Variables
 age: int = 20
 name: str = "Luffy"
-is_student: bool = True
+is_captain: bool = True
 my_variable = None
 #It is not necessary but recommended to initialize along with its datatype
 a = 10
