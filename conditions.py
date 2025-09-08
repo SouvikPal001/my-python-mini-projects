@@ -38,7 +38,7 @@ else:
 
 print("Conditional Statements Demonstration Completed.")
 
-# -----------------------------------------------------------------------------------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #Greetings Message
 import time
@@ -52,4 +52,22 @@ elif (timestamp >= 16) and (timestamp < 21):
 else:
     print("Good Night!")
 
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Match Case Statement (Python 3.10 onwards):
+choice = int(input("Enter a number between 1 and 5: "))
+
+match choice:
+    case 1:
+        print("You chose One")
+    case 2:
+        print("You chose Two")
+    case 3:
+        print("You chose Three")
+    case 4:
+        print("You chose Four")
+    case 5:
+        print("You chose Five")
+    case _:
+        print("This is the default case.")
 #Thank you!
