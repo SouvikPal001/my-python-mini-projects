@@ -1,5 +1,5 @@
 #Functions in Python:
-#P.s.: I play Genshin Impact so I though why not do a little collaboration with Python XP
+#P.s.: I play Genshin Impact, so I though why not do a little collaboration with Python XP
 
 
 # 1. Simple function (no parameters, no return value)
@@ -11,20 +11,20 @@ def attack(character, damage):
     return f"{character} deals {damage} DMG!"
 
 # 3. Function with default arguments
-def elemental_skill(character, element="Anemo"):
+def elemental_skill(character, element="Anemo"):    #It is okay if you don't give input for "element"
     return f"{character} uses their {element} skill!"
 
 # 4. Function with keyword arguments
-def introduce_character(name, vision, region):
+def introduce_character(name, vision, region):      #It is necessary to provide input for all arguments
     print(f"I am {name}, a {vision} user from {region}.")
 
-# 5. Function with variable-length arguments (*args)
+# 5. Function with variable-length arguments (*args), will take input in tuple
 def party_setup(*characters):
     print("Your party members are:")
     for char in characters:
         print("-", char)
 
-# 6. Function with keyword variable-length arguments (**kwargs)
+# 6. Function with keyword variable-length arguments (**kwargs), will take input in dictionary/key:value pair
 def character_stats(**stats):
     print("Character Stats:")
     for key, value in stats.items():
