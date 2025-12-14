@@ -18,6 +18,7 @@ print(Silvers_Rayleigh)
 String is "like" an array of characters and are immutable, i.e,
 we can print a character by accessing its index but cannot change the content of that index
 Note that the indexing of a string starts with zero and end with len(string)-1
+These quotations are generally used for documentation which can also be stored and printed.
 '''
 
 #Accessing characters of a string:
@@ -48,7 +49,7 @@ print()
 
 #String methods:
 # IMPORTANT NOTE: Keep in mind that strings are immutable,
-# so when the following methods are used on the string, it creates an entirely new string and does not mess with the original one
+# so when the following methods are used on the string, it creates an entirely new string/temporarily displays desired results and does not mess with the original one
 ship = "YOHOHO! The Thousand Sunny!!"
 print(len(ship))            #28
 print(ship.upper())         #YOHOHO! THE THOUSAND SUNNY!!
