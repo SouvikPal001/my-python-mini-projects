@@ -45,9 +45,9 @@ print(strawhats[1:5]) #including 1 but not 5 -> Zoro, ..., Sanji
 print(strawhats[:5])  #stating from 0 by default upto 5 but not including 5 -> Luffy, ..., Sanji
 print(strawhats[5:])  #including 5 upto len-1 -> Chopper, ..., Jimbei
 print(strawhats[:])   #traverses the whole list (creates a shallow copy), i.e, from 0 to len-1 -> Luffy, ..., Jimbei
-print(strawhats[0:-6])  #python reads this as: [0:(len(wanted)-6)] = [0:(10-6)] = [0:4] -> Luffy, ..., Usopp
-print(strawhats[-1:-5]) #python reads this as: [(len(wanted)-1):(len(wanted)-5)] = [(10-1):(10-5)] = [9:5] which doesn't really make sense so it returns empty list
-print(strawhats[-5:-1]) #python reads this as: [(len(wanted)-5):(len(wanted)-1)] = [(10-5):(10-1)] = [5:9] -> Chopper, ..., Brook
+print(strawhats[0:-6])  #python reads this as: [0:(len(strawhats)-6)] = [0:(10-6)] = [0:4] -> Luffy, ..., Usopp
+print(strawhats[-1:-5]) #python reads this as: [(len(strawhats)-1):(len(strawhats)-5)] = [(10-1):(10-5)] = [9:5] which doesn't really make sense so it returns empty list
+print(strawhats[-5:-1]) #python reads this as: [(len(strawhats)-5):(len(strawhats)-1)] = [(10-5):(10-1)] = [5:9] -> Chopper, ..., Brook
 print()
 
 #Methods in List
